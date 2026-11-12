@@ -1,0 +1,2074 @@
+{
+ "configs": {
+  "base": {
+   "zip": "base_v1_20261029_full_20261029.zip",
+   "dirs": [
+    "base_v1_20261029"
+   ],
+   "kind": "full",
+   "label": "Base (Budget-Fit)",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 97,
+   "solved_by_attempt": {
+    "0": 46,
+    "1": 51
+   }
+  },
+  "C01b_r2": {
+   "zip": "round2_queue_20261030_full.zip",
+   "dirs": [
+    "runs/r2_C01b_v1"
+   ],
+   "kind": "full",
+   "label": "C01b (round 2)",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 103,
+   "solved_by_attempt": {
+    "0": 50,
+    "1": 53
+   }
+  },
+  "C03b": {
+   "zip": "round2_queue_20261030_full.zip",
+   "dirs": [
+    "runs/r2_C03b_v1"
+   ],
+   "kind": "full",
+   "label": "C03b: + check skill",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 104,
+   "solved_by_attempt": {
+    "0": 50,
+    "1": 54
+   }
+  },
+  "C04": {
+   "zip": "round2_queue_20261030_full.zip",
+   "dirs": [
+    "runs/r2_C04_v1"
+   ],
+   "kind": "full",
+   "label": "C04: temperature 0.7",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 102,
+   "solved_by_attempt": {
+    "0": 50,
+    "1": 52
+   }
+  },
+  "C01b_r4": {
+   "zip": "round4_20261031_full.zip",
+   "dirs": [
+    "runs/r4_C01b"
+   ],
+   "kind": "full",
+   "label": "C01b (round 4)",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 97,
+   "solved_by_attempt": {
+    "0": 50,
+    "1": 47
+   }
+  },
+  "T2048": {
+   "zip": "round4_20261031_full.zip",
+   "dirs": [
+    "runs/r4_T2048"
+   ],
+   "kind": "full",
+   "label": "T2048: thinking cap 2048",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 97,
+   "solved_by_attempt": {
+    "0": 48,
+    "1": 49
+   }
+  },
+  "T3072": {
+   "zip": "round4_20261031_full.zip",
+   "dirs": [
+    "runs/r4_T3072"
+   ],
+   "kind": "full",
+   "label": "T3072: thinking cap 3072",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 99,
+   "solved_by_attempt": {
+    "0": 48,
+    "1": 51
+   }
+  },
+  "X": {
+   "zip": "round4_20261031_full.zip",
+   "dirs": [
+    "runs/r4_X"
+   ],
+   "kind": "full",
+   "label": "X: read/search rules",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 104,
+   "solved_by_attempt": {
+    "0": 51,
+    "1": 53
+   }
+  },
+  "C01b_r7": {
+   "zip": "round7_K3_fail500_20261101.zip",
+   "dirs": [
+    "runs/r7_K3_fC_C01b_A0",
+    "runs/r7_K3_fC_C01b_A1",
+    "runs/r7_K3_fC_C01b_B0",
+    "runs/r7_K3_fC_C01b_B1"
+   ],
+   "kind": "full",
+   "label": "C01b (round 7)",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 97,
+   "solved_by_attempt": {
+    "0": 47,
+    "1": 50
+   }
+  },
+  "B30": {
+   "zip": "round7_K3_fail500_20261101.zip",
+   "dirs": [
+    "runs/r7_K3_fC_B30_A0",
+    "runs/r7_K3_fC_B30_A1",
+    "runs/r7_K3_fC_B30_B0",
+    "runs/r7_K3_fC_B30_B1"
+   ],
+   "kind": "full",
+   "label": "B30: call cap 30",
+   "runs": 250,
+   "ok": 250,
+   "tasks": 125,
+   "solved": 103,
+   "solved_by_attempt": {
+    "0": 50,
+    "1": 53
+   }
+  },
+  "g1_base": {
+   "zip": "c01_vs_base_20261029_dev12_full.zip",
+   "dirs": [
+    "runs/baseline_r0",
+    "runs/baseline_r1"
+   ],
+   "kind": "gate",
+   "label": "Base",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 11,
+   "solved_by_attempt": {
+    "0": 11
+   }
+  },
+  "g1_C01": {
+   "zip": "c01_vs_base_20261029_dev12_full.zip",
+   "dirs": [
+    "runs/C01_r0",
+    "runs/C01_r1"
+   ],
+   "kind": "gate",
+   "label": "C01",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 8,
+   "solved_by_attempt": {
+    "0": 8
+   }
+  },
+  "g1r_base": {
+   "zip": "r01_vs_base_20261029_v2_main_dev12_full.zip",
+   "dirs": [
+    "runs/baseline_r0",
+    "runs/baseline_r1"
+   ],
+   "kind": "gate",
+   "label": "Base",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 10,
+   "solved_by_attempt": {
+    "0": 10
+   }
+  },
+  "g1r_R01": {
+   "zip": "r01_vs_base_20261029_v2_main_dev12_full.zip",
+   "dirs": [
+    "runs/R01_r0",
+    "runs/R01_r1"
+   ],
+   "kind": "gate",
+   "label": "R01",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 8,
+   "solved_by_attempt": {
+    "0": 8
+   }
+  },
+  "r3_C01b": {
+   "zip": "round3_stage1_20261031_full.zip",
+   "dirs": [
+    "runs/r3_C01b_s1"
+   ],
+   "kind": "gate",
+   "label": "C01b",
+   "runs": 80,
+   "ok": 80,
+   "tasks": 40,
+   "solved": 32,
+   "solved_by_attempt": {
+    "0": 17,
+    "1": 15
+   }
+  },
+  "r3_C01c": {
+   "zip": "round3_stage1_20261031_full.zip",
+   "dirs": [
+    "runs/r3_C01c_s1"
+   ],
+   "kind": "gate",
+   "label": "C01c",
+   "runs": 80,
+   "ok": 80,
+   "tasks": 40,
+   "solved": 30,
+   "solved_by_attempt": {
+    "0": 15,
+    "1": 15
+   }
+  },
+  "g5_C01b": {
+   "zip": "round5_gate1_20261101.zip",
+   "dirs": [
+    "runs/r5_g1_C01b_A",
+    "runs/r5_g1_C01b_B"
+   ],
+   "kind": "gate",
+   "label": "C01b",
+   "runs": 16,
+   "ok": 16,
+   "tasks": 8,
+   "solved": 12,
+   "solved_by_attempt": {
+    "0": 6,
+    "1": 6
+   }
+  },
+  "g5_V": {
+   "zip": "round5_gate1_20261101.zip",
+   "dirs": [
+    "runs/r5_g1_V_A",
+    "runs/r5_g1_V_B"
+   ],
+   "kind": "gate",
+   "label": "V",
+   "runs": 16,
+   "ok": 16,
+   "tasks": 8,
+   "solved": 10,
+   "solved_by_attempt": {
+    "0": 5,
+    "1": 5
+   }
+  },
+  "g6_C01b": {
+   "zip": "round6_gateB_20261101.zip",
+   "dirs": [
+    "runs/r6_gB_C01b_A",
+    "runs/r6_gB_C01b_B"
+   ],
+   "kind": "gate",
+   "label": "C01b",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 11,
+   "solved_by_attempt": {
+    "0": 5,
+    "1": 6
+   }
+  },
+  "g6_E": {
+   "zip": "round6_gateB_20261101.zip",
+   "dirs": [
+    "runs/r6_gB_E_A",
+    "runs/r6_gB_E_B"
+   ],
+   "kind": "gate",
+   "label": "E",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 9,
+   "solved_by_attempt": {
+    "0": 5,
+    "1": 4
+   }
+  },
+  "g7_C01b_K2": {
+   "zip": "round7_K2_gateB_20261101.zip",
+   "dirs": [
+    "runs/r7_K2_gB_C01b_A",
+    "runs/r7_K2_gB_C01b_B"
+   ],
+   "kind": "gate",
+   "label": "C01b",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 12,
+   "solved_by_attempt": {
+    "0": 7,
+    "1": 5
+   }
+  },
+  "g7_K2": {
+   "zip": "round7_K2_gateB_20261101.zip",
+   "dirs": [
+    "runs/r7_K2_gB_K2_A",
+    "runs/r7_K2_gB_K2_B"
+   ],
+   "kind": "gate",
+   "label": "K2",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 12,
+   "solved_by_attempt": {
+    "0": 7,
+    "1": 5
+   }
+  },
+  "g7_C01b_K3": {
+   "zip": "round7_K3_gateB_20261101.zip",
+   "dirs": [
+    "runs/r7_K3_gB_C01b_A",
+    "runs/r7_K3_gB_C01b_B"
+   ],
+   "kind": "gate",
+   "label": "C01b",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 12,
+   "solved_by_attempt": {
+    "0": 6,
+    "1": 6
+   }
+  },
+  "g7_K3": {
+   "zip": "round7_K3_gateB_20261101.zip",
+   "dirs": [
+    "runs/r7_K3_gB_K3_A",
+    "runs/r7_K3_gB_K3_B"
+   ],
+   "kind": "gate",
+   "label": "K3",
+   "runs": 24,
+   "ok": 24,
+   "tasks": 12,
+   "solved": 9,
+   "solved_by_attempt": {
+    "0": 6,
+    "1": 3
+   }
+  }
+ },
+ "comparisons": [
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 103,
+   "diff_pts": 2.4,
+   "ci_idx": [
+    -2.0,
+    6.800000000000001
+   ],
+   "ci_lin": [
+    -2.0,
+    6.800000000000001
+   ],
+   "up": 15,
+   "down": 8,
+   "same": 102,
+   "sign_p": 0.21003961563110352,
+   "a": "base",
+   "b": "C01b_r2",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     2.4,
+     -2.0,
+     6.8
+    ],
+    "source": "第二轮 完整对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 104,
+   "diff_pts": 2.8000000000000003,
+   "ci_idx": [
+    -1.6,
+    7.6
+   ],
+   "ci_lin": [
+    -1.6,
+    7.6
+   ],
+   "up": 16,
+   "down": 10,
+   "same": 99,
+   "sign_p": 0.32693958282470703,
+   "a": "base",
+   "b": "C03b",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     2.8,
+     -1.6,
+     7.6
+    ],
+    "source": "第二轮 完整对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 102,
+   "diff_pts": 2.0,
+   "ci_idx": [
+    -3.5999999999999996,
+    7.6
+   ],
+   "ci_lin": [
+    -3.5999999999999996,
+    7.6
+   ],
+   "up": 18,
+   "down": 14,
+   "same": 93,
+   "sign_p": 0.5966148958541453,
+   "a": "base",
+   "b": "C04",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     2.0,
+     -3.6,
+     7.6
+    ],
+    "source": "第二轮 完整对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 103,
+   "solved_b": 104,
+   "diff_pts": 0.4,
+   "ci_idx": [
+    -3.5999999999999996,
+    4.3999999999999995
+   ],
+   "ci_lin": [
+    -3.5999999999999996,
+    4.3999999999999995
+   ],
+   "up": 11,
+   "down": 11,
+   "same": 103,
+   "sign_p": 1.0,
+   "a": "C01b_r2",
+   "b": "C03b",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     0.4,
+     -3.6,
+     4.4
+    ],
+    "source": "第二轮 完整对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 97,
+   "diff_pts": 0.0,
+   "ci_idx": [
+    -4.0,
+    4.0
+   ],
+   "ci_lin": [
+    -4.0,
+    4.0
+   ],
+   "up": 10,
+   "down": 12,
+   "same": 103,
+   "sign_p": 0.8318119049072266,
+   "a": "C01b_r4",
+   "b": "T2048",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     0.0,
+     -4.0,
+     4.0
+    ],
+    "source": "第四轮 对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 99,
+   "diff_pts": 0.8,
+   "ci_idx": [
+    -3.2,
+    5.2
+   ],
+   "ci_lin": [
+    -3.2,
+    5.2
+   ],
+   "up": 11,
+   "down": 10,
+   "same": 104,
+   "sign_p": 1.0,
+   "a": "C01b_r4",
+   "b": "T3072",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     0.8,
+     -3.2,
+     5.2
+    ],
+    "source": "第四轮 对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 104,
+   "diff_pts": 2.8000000000000003,
+   "ci_idx": [
+    -1.6,
+    7.199999999999999
+   ],
+   "ci_lin": [
+    -1.6,
+    7.199999999999999
+   ],
+   "up": 16,
+   "down": 9,
+   "same": 100,
+   "sign_p": 0.2295229434967041,
+   "a": "C01b_r4",
+   "b": "X",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     2.8,
+     -1.6,
+     7.2
+    ],
+    "source": "第四轮 对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 103,
+   "diff_pts": 2.4,
+   "ci_idx": [
+    -2.8000000000000003,
+    7.199999999999999
+   ],
+   "ci_lin": [
+    -2.8000000000000003,
+    7.199999999999999
+   ],
+   "up": 15,
+   "down": 10,
+   "same": 100,
+   "sign_p": 0.42435622215270996,
+   "a": "C01b_r7",
+   "b": "B30",
+   "kind": "candidate",
+   "check": {
+    "reported": [
+     2.4,
+     -2.8,
+     7.2
+    ],
+    "source": "第七轮 K3_B30全量对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 103,
+   "solved_b": 97,
+   "diff_pts": -2.4,
+   "ci_idx": [
+    -6.800000000000001,
+    2.0
+   ],
+   "ci_lin": [
+    -6.800000000000001,
+    2.0
+   ],
+   "up": 8,
+   "down": 12,
+   "same": 105,
+   "sign_p": 0.5034446716308594,
+   "a": "C01b_r2",
+   "b": "C01b_r4",
+   "kind": "rerun",
+   "check": {
+    "reported": [
+     -2.4,
+     -6.8,
+     2.0
+    ],
+    "source": "第四轮 对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 103,
+   "solved_b": 97,
+   "diff_pts": -2.4,
+   "ci_idx": [
+    -6.4,
+    1.6
+   ],
+   "ci_lin": [
+    -6.4,
+    1.6
+   ],
+   "up": 7,
+   "down": 13,
+   "same": 105,
+   "sign_p": 0.26317596435546875,
+   "a": "C01b_r2",
+   "b": "C01b_r7",
+   "kind": "rerun",
+   "check": {
+    "reported": [
+     -2.4,
+     -6.4,
+     1.6
+    ],
+    "source": "第七轮 K3_B30全量对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 250,
+   "runs_b": 250,
+   "solved_a": 97,
+   "solved_b": 97,
+   "diff_pts": 0.0,
+   "ci_idx": [
+    -4.0,
+    3.5999999999999996
+   ],
+   "ci_lin": [
+    -4.0,
+    3.5999999999999996
+   ],
+   "up": 9,
+   "down": 9,
+   "same": 107,
+   "sign_p": 1.0,
+   "a": "C01b_r4",
+   "b": "C01b_r7",
+   "kind": "rerun",
+   "check": {
+    "reported": [
+     0.0,
+     -4.0,
+     3.6
+    ],
+    "source": "第七轮 K3_B30全量对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 12,
+   "runs_a": 24,
+   "runs_b": 24,
+   "solved_a": 11,
+   "solved_b": 8,
+   "diff_pts": -12.5,
+   "ci_idx": [
+    -25.0,
+    0.0
+   ],
+   "ci_lin": [
+    -25.0,
+    0.0
+   ],
+   "up": 0,
+   "down": 3,
+   "same": 9,
+   "sign_p": 0.25,
+   "a": "g1_base",
+   "b": "g1_C01",
+   "kind": "gate",
+   "check": null
+  },
+  {
+   "n_tasks": 12,
+   "runs_a": 24,
+   "runs_b": 24,
+   "solved_a": 10,
+   "solved_b": 8,
+   "diff_pts": -8.333333333333332,
+   "ci_idx": [
+    -25.0,
+    8.333333333333332
+   ],
+   "ci_lin": [
+    -25.0,
+    8.333333333333332
+   ],
+   "up": 1,
+   "down": 3,
+   "same": 8,
+   "sign_p": 0.625,
+   "a": "g1r_base",
+   "b": "g1r_R01",
+   "kind": "gate",
+   "check": null
+  },
+  {
+   "n_tasks": 40,
+   "runs_a": 80,
+   "runs_b": 80,
+   "solved_a": 32,
+   "solved_b": 30,
+   "diff_pts": -2.5,
+   "ci_idx": [
+    -11.25,
+    5.0
+   ],
+   "ci_lin": [
+    -11.25,
+    5.031249999999546
+   ],
+   "up": 4,
+   "down": 5,
+   "same": 31,
+   "sign_p": 1.0,
+   "a": "r3_C01b",
+   "b": "r3_C01c",
+   "kind": "gate",
+   "check": {
+    "reported": [
+     -2.5,
+     -11.2,
+     5.0
+    ],
+    "source": "第三轮 第一阶段对比报告.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 8,
+   "runs_a": 16,
+   "runs_b": 16,
+   "solved_a": 12,
+   "solved_b": 10,
+   "diff_pts": -12.5,
+   "ci_idx": [
+    -37.5,
+    0.0
+   ],
+   "ci_lin": [
+    -37.5,
+    0.0
+   ],
+   "up": 0,
+   "down": 1,
+   "same": 7,
+   "sign_p": 1.0,
+   "a": "g5_C01b",
+   "b": "g5_V",
+   "kind": "gate",
+   "check": null
+  },
+  {
+   "n_tasks": 12,
+   "runs_a": 24,
+   "runs_b": 24,
+   "solved_a": 11,
+   "solved_b": 9,
+   "diff_pts": -8.333333333333332,
+   "ci_idx": [
+    -20.833333333333336,
+    0.0
+   ],
+   "ci_lin": [
+    -20.833333333333336,
+    0.0
+   ],
+   "up": 0,
+   "down": 2,
+   "same": 10,
+   "sign_p": 0.5,
+   "a": "g6_C01b",
+   "b": "g6_E",
+   "kind": "gate",
+   "check": null
+  },
+  {
+   "n_tasks": 12,
+   "runs_a": 24,
+   "runs_b": 24,
+   "solved_a": 12,
+   "solved_b": 12,
+   "diff_pts": 0.0,
+   "ci_idx": [
+    -12.5,
+    12.5
+   ],
+   "ci_lin": [
+    -12.5,
+    12.5
+   ],
+   "up": 1,
+   "down": 1,
+   "same": 10,
+   "sign_p": 1.0,
+   "a": "g7_C01b_K2",
+   "b": "g7_K2",
+   "kind": "gate",
+   "check": null
+  },
+  {
+   "n_tasks": 12,
+   "runs_a": 24,
+   "runs_b": 24,
+   "solved_a": 12,
+   "solved_b": 9,
+   "diff_pts": -12.5,
+   "ci_idx": [
+    -25.0,
+    0.0
+   ],
+   "ci_lin": [
+    -25.0,
+    0.0
+   ],
+   "up": 0,
+   "down": 3,
+   "same": 9,
+   "sign_p": 0.25,
+   "a": "g7_C01b_K3",
+   "b": "g7_K3",
+   "kind": "gate",
+   "check": {
+    "reported": [
+     -12.5,
+     -25.0,
+     0.0
+    ],
+    "source": "第七轮 K3执行证据/门B/分析/paired_quality.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 46,
+   "solved_b": 51,
+   "diff_pts": 4.0,
+   "ci_idx": [
+    -3.2,
+    11.200000000000001
+   ],
+   "ci_lin": [
+    -3.2,
+    11.200000000000001
+   ],
+   "up": 13,
+   "down": 8,
+   "same": 104,
+   "sign_p": 0.38331031799316406,
+   "a": "base@a0",
+   "b": "base@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     4.0,
+     -3.2,
+     11.2
+    ],
+    "source": "第二轮 summary_recomputed.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 50,
+   "solved_b": 53,
+   "diff_pts": 2.4,
+   "ci_idx": [
+    -2.4,
+    7.199999999999999
+   ],
+   "ci_lin": [
+    -2.4,
+    7.199999999999999
+   ],
+   "up": 7,
+   "down": 4,
+   "same": 114,
+   "sign_p": 0.548828125,
+   "a": "C01b_r2@a0",
+   "b": "C01b_r2@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     2.4,
+     -2.4,
+     7.2
+    ],
+    "source": "第二轮 summary_recomputed.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 50,
+   "solved_b": 54,
+   "diff_pts": 3.2,
+   "ci_idx": [
+    -2.4,
+    8.799999999999999
+   ],
+   "ci_lin": [
+    -2.4,
+    8.799999999999999
+   ],
+   "up": 9,
+   "down": 5,
+   "same": 111,
+   "sign_p": 0.4239501953125,
+   "a": "C03b@a0",
+   "b": "C03b@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     3.2,
+     -2.4,
+     8.8
+    ],
+    "source": "第二轮 summary_recomputed.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 50,
+   "solved_b": 52,
+   "diff_pts": 1.6,
+   "ci_idx": [
+    -2.4,
+    6.4
+   ],
+   "ci_lin": [
+    -2.4,
+    6.4
+   ],
+   "up": 5,
+   "down": 3,
+   "same": 117,
+   "sign_p": 0.7265625,
+   "a": "C04@a0",
+   "b": "C04@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     1.6,
+     -2.4,
+     6.4
+    ],
+    "source": "第二轮 summary_recomputed.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 50,
+   "solved_b": 47,
+   "diff_pts": -2.4,
+   "ci_idx": [
+    -8.0,
+    3.2
+   ],
+   "ci_lin": [
+    -8.0,
+    3.2
+   ],
+   "up": 5,
+   "down": 8,
+   "same": 112,
+   "sign_p": 0.5810546875,
+   "a": "C01b_r4@a0",
+   "b": "C01b_r4@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     -2.4,
+     -8.0,
+     3.2
+    ],
+    "source": "第四轮 paired_candidates.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 48,
+   "solved_b": 49,
+   "diff_pts": 0.8,
+   "ci_idx": [
+    -4.8,
+    6.4
+   ],
+   "ci_lin": [
+    -4.019999999999993,
+    6.4
+   ],
+   "up": 6,
+   "down": 5,
+   "same": 114,
+   "sign_p": 1.0,
+   "a": "T2048@a0",
+   "b": "T2048@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     0.8,
+     -4.8,
+     6.4
+    ],
+    "source": "第四轮 paired_candidates.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 48,
+   "solved_b": 51,
+   "diff_pts": 2.4,
+   "ci_idx": [
+    -3.2,
+    8.0
+   ],
+   "ci_lin": [
+    -3.2,
+    8.0
+   ],
+   "up": 8,
+   "down": 5,
+   "same": 112,
+   "sign_p": 0.5810546875,
+   "a": "T3072@a0",
+   "b": "T3072@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     2.4,
+     -3.2,
+     8.0
+    ],
+    "source": "第四轮 paired_candidates.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 51,
+   "solved_b": 53,
+   "diff_pts": 1.6,
+   "ci_idx": [
+    -5.6000000000000005,
+    8.799999999999999
+   ],
+   "ci_lin": [
+    -5.6000000000000005,
+    8.799999999999999
+   ],
+   "up": 11,
+   "down": 9,
+   "same": 105,
+   "sign_p": 0.8238029479980469,
+   "a": "X@a0",
+   "b": "X@a1",
+   "kind": "within",
+   "check": {
+    "reported": [
+     1.6,
+     -5.6,
+     8.8
+    ],
+    "source": "第四轮 paired_candidates.md",
+    "match": true,
+    "match_method": "index"
+   }
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 47,
+   "solved_b": 50,
+   "diff_pts": 2.4,
+   "ci_idx": [
+    -2.4,
+    7.199999999999999
+   ],
+   "ci_lin": [
+    -2.4,
+    7.199999999999999
+   ],
+   "up": 6,
+   "down": 3,
+   "same": 116,
+   "sign_p": 0.5078125,
+   "a": "C01b_r7@a0",
+   "b": "C01b_r7@a1",
+   "kind": "within",
+   "check": null
+  },
+  {
+   "n_tasks": 125,
+   "runs_a": 125,
+   "runs_b": 125,
+   "solved_a": 50,
+   "solved_b": 53,
+   "diff_pts": 2.4,
+   "ci_idx": [
+    -4.0,
+    8.799999999999999
+   ],
+   "ci_lin": [
+    -4.0,
+    8.799999999999999
+   ],
+   "up": 10,
+   "down": 7,
+   "same": 108,
+   "sign_p": 0.629058837890625,
+   "a": "B30@a0",
+   "b": "B30@a1",
+   "kind": "within",
+   "check": null
+  }
+ ],
+ "flips": {
+  "C01b_r2 vs C01b_r4": {
+   "n": 250,
+   "flips": 32,
+   "rate_pct": 12.8
+  },
+  "C01b_r2 vs C01b_r7": {
+   "n": 250,
+   "flips": 24,
+   "rate_pct": 9.6
+  },
+  "C01b_r4 vs C01b_r7": {
+   "n": 250,
+   "flips": 24,
+   "rate_pct": 9.6
+  }
+ },
+ "solvability_full20": {
+  "configs": [
+   "base",
+   "C01b_r2",
+   "C03b",
+   "C04",
+   "C01b_r4",
+   "T2048",
+   "T3072",
+   "X",
+   "C01b_r7",
+   "B30"
+  ],
+  "attempts_per_task": [
+   20
+  ],
+  "n_tasks": 125,
+  "never": 51,
+  "always": 23,
+  "mixed": 51,
+  "by_repo": {
+   "fastapi": {
+    "tasks": 64,
+    "never": 30,
+    "always": 10,
+    "mixed": 24
+   },
+   "httpx": {
+    "tasks": 1,
+    "never": 0,
+    "always": 0,
+    "mixed": 1
+   },
+   "requests": {
+    "tasks": 13,
+    "never": 1,
+    "always": 6,
+    "mixed": 6
+   },
+   "rich": {
+    "tasks": 47,
+    "never": 20,
+    "always": 7,
+    "mixed": 20
+   }
+  },
+  "distribution": {
+   "0": 51,
+   "1": 6,
+   "2": 3,
+   "3": 1,
+   "4": 5,
+   "5": 2,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 3,
+   "10": 2,
+   "12": 1,
+   "13": 3,
+   "14": 3,
+   "15": 2,
+   "16": 1,
+   "17": 4,
+   "18": 5,
+   "19": 7,
+   "20": 23
+  },
+  "attempts_max": 20
+ },
+ "solvability_c01b6": {
+  "configs": [
+   "C01b_r2",
+   "C01b_r4",
+   "C01b_r7"
+  ],
+  "attempts_per_task": [
+   6
+  ],
+  "n_tasks": 125,
+  "never": 60,
+  "always": 36,
+  "mixed": 29,
+  "by_repo": {
+   "fastapi": {
+    "tasks": 64,
+    "never": 32,
+    "always": 14,
+    "mixed": 18
+   },
+   "httpx": {
+    "tasks": 1,
+    "never": 0,
+    "always": 1,
+    "mixed": 0
+   },
+   "requests": {
+    "tasks": 13,
+    "never": 1,
+    "always": 8,
+    "mixed": 4
+   },
+   "rich": {
+    "tasks": 47,
+    "never": 27,
+    "always": 13,
+    "mixed": 7
+   }
+  },
+  "distribution": {
+   "0": 60,
+   "1": 11,
+   "2": 3,
+   "3": 3,
+   "4": 5,
+   "5": 7,
+   "6": 36
+  },
+  "attempts_max": 6
+ },
+ "power": {
+  "c01b6": {
+   "description": "C01b 三次全量（每题 6 次）的经验成功率",
+   "n_tasks": 125,
+   "mean_rate_pct": 39.6,
+   "sd_diff_two_runs_solves": 4.48454134902457,
+   "sd_diff_two_runs_pts": 1.7938165396098282,
+   "normal_approx_mde80_pts": 5.025556417370895,
+   "by_repeats": {
+    "2": {
+     "runs_per_config": 250,
+     "null_95_pts": [
+      -3.599999999999998,
+      3.599999999999998
+     ],
+     "power": {
+      "2": 0.178,
+      "3": 0.3475,
+      "4": 0.53625,
+      "5": 0.73875,
+      "6": 0.85825,
+      "7": 0.936,
+      "8": 0.97875
+     },
+     "mde80_pts": 6.0
+    },
+    "4": {
+     "runs_per_config": 500,
+     "null_95_pts": [
+      -2.4050000000000002,
+      2.599999999999997
+     ],
+     "power": {
+      "2": 0.2995,
+      "3": 0.59775,
+      "4": 0.8195,
+      "5": 0.9395,
+      "6": 0.98675,
+      "7": 0.99675,
+      "8": 1.0
+     },
+     "mde80_pts": 4.0
+    },
+    "8": {
+     "runs_per_config": 1000,
+     "null_95_pts": [
+      -1.7000000000000015,
+      1.799999999999996
+     ],
+     "power": {
+      "2": 0.56525,
+      "3": 0.877,
+      "4": 0.98375,
+      "5": 0.9995,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 1.0
+     },
+     "mde80_pts": 3.0
+    },
+    "16": {
+     "runs_per_config": 2000,
+     "null_95_pts": [
+      -1.2512500000000006,
+      1.250000000000001
+     ],
+     "power": {
+      "2": 0.852,
+      "3": 0.993,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 1.0
+     },
+     "mde80_pts": 2.0
+    }
+   }
+  },
+  "pool20": {
+   "description": "10 个全量配置合并（每题 20 次）的经验成功率",
+   "n_tasks": 125,
+   "mean_rate_pct": 40.120000000000005,
+   "sd_diff_two_runs_solves": 5.3507008886686975,
+   "sd_diff_two_runs_pts": 2.140280355467479,
+   "normal_approx_mde80_pts": 5.99620944387769,
+   "by_repeats": {
+    "2": {
+     "runs_per_config": 250,
+     "null_95_pts": [
+      -3.9999999999999982,
+      4.399999999999999
+     ],
+     "power": {
+      "2": 0.1255,
+      "3": 0.2345,
+      "4": 0.41625,
+      "5": 0.5795,
+      "6": 0.7435,
+      "7": 0.86275,
+      "8": 0.9305
+     },
+     "mde80_pts": 6.5
+    },
+    "4": {
+     "runs_per_config": 500,
+     "null_95_pts": [
+      -2.9999999999999973,
+      2.9999999999999973
+     ],
+     "power": {
+      "2": 0.25525,
+      "3": 0.49075,
+      "4": 0.73025,
+      "5": 0.88975,
+      "6": 0.965,
+      "7": 0.98975,
+      "8": 0.9985
+     },
+     "mde80_pts": 4.5
+    },
+    "8": {
+     "runs_per_config": 1000,
+     "null_95_pts": [
+      -2.099999999999996,
+      2.099999999999996
+     ],
+     "power": {
+      "2": 0.43525,
+      "3": 0.781,
+      "4": 0.95475,
+      "5": 0.9945,
+      "6": 0.99875,
+      "7": 1.0,
+      "8": 1.0
+     },
+     "mde80_pts": 3.5
+    },
+    "16": {
+     "runs_per_config": 2000,
+     "null_95_pts": [
+      -1.4500000000000013,
+      1.5000000000000013
+     ],
+     "power": {
+      "2": 0.71925,
+      "3": 0.96975,
+      "4": 0.9995,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 1.0
+     },
+     "mde80_pts": 2.5
+    }
+   }
+  },
+  "observed_ci": {
+   "n": 11,
+   "mean_half_width_pts": 4.4,
+   "min": 3.8,
+   "max": 5.6,
+   "implied_mde80_pts": 6.289306122448981
+  },
+  "assumption": "每题成功率取经验值；候选对每题加同一个平移量（超过 1 截到 1），平移量用二分法选到“截断后的真实平均差”恰为表头的值；“检出”= 模拟差值超过零假设下差值分布的 97.5% 分位，等价于双侧 95% 区间不含 0。observed_ci 用实际 11 个全量比较的 bootstrap 区间半宽，按正态近似换算 80% 功效所需的差距。"
+ },
+ "poison": {
+  "base": {
+   "edit_pre_n": 548,
+   "edit_pre_f": 42,
+   "edit_post_n": 590,
+   "edit_post_f": 530,
+   "missing_calls": 663,
+   "identical_failed_resend": 580,
+   "resend_after_missing": 570,
+   "runs": 250,
+   "poisoned": 42,
+   "poisoned_solved": 9,
+   "clean_solved": 88,
+   "max_missing_chain": 71,
+   "pre_rate_pct": 7.664233576642336,
+   "post_rate_pct": 89.83050847457628,
+   "poisoned_solve_pct": 21.428571428571427,
+   "clean_solve_pct": 42.30769230769231
+  },
+  "C01b_r2": {
+   "edit_pre_n": 604,
+   "edit_pre_f": 23,
+   "edit_post_n": 290,
+   "edit_post_f": 259,
+   "missing_calls": 296,
+   "identical_failed_resend": 257,
+   "resend_after_missing": 233,
+   "runs": 250,
+   "poisoned": 23,
+   "poisoned_solved": 7,
+   "clean_solved": 96,
+   "max_missing_chain": 61,
+   "pre_rate_pct": 3.80794701986755,
+   "post_rate_pct": 89.3103448275862,
+   "poisoned_solve_pct": 30.434782608695652,
+   "clean_solve_pct": 42.290748898678416
+  },
+  "C03b": {
+   "edit_pre_n": 578,
+   "edit_pre_f": 29,
+   "edit_post_n": 315,
+   "edit_post_f": 261,
+   "missing_calls": 297,
+   "identical_failed_resend": 261,
+   "resend_after_missing": 246,
+   "runs": 250,
+   "poisoned": 29,
+   "poisoned_solved": 7,
+   "clean_solved": 97,
+   "max_missing_chain": 71,
+   "pre_rate_pct": 5.017301038062284,
+   "post_rate_pct": 82.85714285714286,
+   "poisoned_solve_pct": 24.137931034482758,
+   "clean_solve_pct": 43.89140271493213
+  },
+  "C04": {
+   "edit_pre_n": 535,
+   "edit_pre_f": 46,
+   "edit_post_n": 455,
+   "edit_post_f": 388,
+   "missing_calls": 464,
+   "identical_failed_resend": 385,
+   "resend_after_missing": 362,
+   "runs": 250,
+   "poisoned": 46,
+   "poisoned_solved": 14,
+   "clean_solved": 88,
+   "max_missing_chain": 49,
+   "pre_rate_pct": 8.598130841121495,
+   "post_rate_pct": 85.27472527472527,
+   "poisoned_solve_pct": 30.434782608695652,
+   "clean_solve_pct": 43.13725490196079
+  },
+  "C01b_r4": {
+   "edit_pre_n": 605,
+   "edit_pre_f": 20,
+   "edit_post_n": 272,
+   "edit_post_f": 225,
+   "missing_calls": 257,
+   "identical_failed_resend": 237,
+   "resend_after_missing": 207,
+   "runs": 250,
+   "poisoned": 20,
+   "poisoned_solved": 3,
+   "clean_solved": 94,
+   "max_missing_chain": 61,
+   "pre_rate_pct": 3.3057851239669422,
+   "post_rate_pct": 82.72058823529412,
+   "poisoned_solve_pct": 15.0,
+   "clean_solve_pct": 40.869565217391305
+  },
+  "T2048": {
+   "edit_pre_n": 559,
+   "edit_pre_f": 23,
+   "edit_post_n": 210,
+   "edit_post_f": 173,
+   "missing_calls": 222,
+   "identical_failed_resend": 170,
+   "resend_after_missing": 148,
+   "runs": 250,
+   "poisoned": 23,
+   "poisoned_solved": 10,
+   "clean_solved": 87,
+   "max_missing_chain": 17,
+   "pre_rate_pct": 4.114490161001789,
+   "post_rate_pct": 82.38095238095238,
+   "poisoned_solve_pct": 43.47826086956522,
+   "clean_solve_pct": 38.32599118942731
+  },
+  "T3072": {
+   "edit_pre_n": 613,
+   "edit_pre_f": 22,
+   "edit_post_n": 247,
+   "edit_post_f": 214,
+   "missing_calls": 247,
+   "identical_failed_resend": 199,
+   "resend_after_missing": 189,
+   "runs": 250,
+   "poisoned": 22,
+   "poisoned_solved": 3,
+   "clean_solved": 96,
+   "max_missing_chain": 58,
+   "pre_rate_pct": 3.5889070146818924,
+   "post_rate_pct": 86.63967611336032,
+   "poisoned_solve_pct": 13.636363636363637,
+   "clean_solve_pct": 42.10526315789474
+  },
+  "X": {
+   "edit_pre_n": 563,
+   "edit_pre_f": 30,
+   "edit_post_n": 323,
+   "edit_post_f": 277,
+   "missing_calls": 307,
+   "identical_failed_resend": 263,
+   "resend_after_missing": 256,
+   "runs": 250,
+   "poisoned": 30,
+   "poisoned_solved": 7,
+   "clean_solved": 97,
+   "max_missing_chain": 67,
+   "pre_rate_pct": 5.328596802841918,
+   "post_rate_pct": 85.75851393188854,
+   "poisoned_solve_pct": 23.333333333333332,
+   "clean_solve_pct": 44.09090909090909
+  },
+  "C01b_r7": {
+   "edit_pre_n": 592,
+   "edit_pre_f": 21,
+   "edit_post_n": 288,
+   "edit_post_f": 267,
+   "missing_calls": 316,
+   "identical_failed_resend": 272,
+   "resend_after_missing": 267,
+   "runs": 250,
+   "poisoned": 21,
+   "poisoned_solved": 6,
+   "clean_solved": 91,
+   "max_missing_chain": 50,
+   "pre_rate_pct": 3.5472972972972974,
+   "post_rate_pct": 92.70833333333333,
+   "poisoned_solve_pct": 28.571428571428573,
+   "clean_solve_pct": 39.737991266375545
+  },
+  "B30": {
+   "edit_pre_n": 595,
+   "edit_pre_f": 25,
+   "edit_post_n": 525,
+   "edit_post_f": 482,
+   "missing_calls": 523,
+   "identical_failed_resend": 477,
+   "resend_after_missing": 469,
+   "runs": 250,
+   "poisoned": 25,
+   "poisoned_solved": 3,
+   "clean_solved": 100,
+   "max_missing_chain": 53,
+   "pre_rate_pct": 4.201680672268908,
+   "post_rate_pct": 91.80952380952381,
+   "poisoned_solve_pct": 12.0,
+   "clean_solve_pct": 44.44444444444444
+  }
+ },
+ "poison_total_full": {
+  "edit_pre_n": 5792,
+  "edit_pre_f": 281,
+  "edit_post_n": 3515,
+  "edit_post_f": 3076,
+  "missing_calls": 3592,
+  "identical_failed_resend": 3101,
+  "resend_after_missing": 2947,
+  "runs": 2500,
+  "poisoned": 281,
+  "poisoned_solved": 69,
+  "clean_solved": 934,
+  "max_missing_chain": 71,
+  "pre_rate_pct": 4.851519337016574,
+  "post_rate_pct": 87.51066856330014,
+  "poisoned_solve_pct": 24.555160142348754,
+  "clean_solve_pct": 42.091031996394776
+ },
+ "poison_gate": {
+  "r3_C01b": {
+   "edit_pre_n": 258,
+   "edit_pre_f": 14,
+   "edit_post_n": 295,
+   "edit_post_f": 272,
+   "missing_calls": 289,
+   "identical_failed_resend": 256,
+   "resend_after_missing": 258,
+   "runs": 80,
+   "poisoned": 14,
+   "poisoned_solved": 3,
+   "clean_solved": 29,
+   "max_missing_chain": 71,
+   "pre_rate_pct": 5.426356589147287,
+   "post_rate_pct": 92.20338983050847,
+   "poisoned_solve_pct": 21.428571428571427,
+   "clean_solve_pct": 43.93939393939394
+  },
+  "r3_C01c": {
+   "edit_pre_n": 220,
+   "edit_pre_f": 10,
+   "edit_post_n": 99,
+   "edit_post_f": 83,
+   "missing_calls": 94,
+   "identical_failed_resend": 82,
+   "resend_after_missing": 79,
+   "runs": 80,
+   "poisoned": 10,
+   "poisoned_solved": 3,
+   "clean_solved": 27,
+   "max_missing_chain": 66,
+   "pre_rate_pct": 4.545454545454546,
+   "post_rate_pct": 83.83838383838383,
+   "poisoned_solve_pct": 30.0,
+   "clean_solve_pct": 38.57142857142857
+  }
+ },
+ "poison_within_task": {
+  "base": {
+   "configs": [
+    "base"
+   ],
+   "n_tasks": 28,
+   "poisoned_rate": 0.17857142857142858,
+   "clean_rate": 0.17857142857142858,
+   "gap_pts": 0.0,
+   "runs": 250,
+   "extra_solves_if_clean": 0.0,
+   "upper_bound_pts": 0.0
+  },
+  "C01b_r2": {
+   "configs": [
+    "C01b_r2"
+   ],
+   "n_tasks": 19,
+   "poisoned_rate": 0.2631578947368421,
+   "clean_rate": 0.3157894736842105,
+   "gap_pts": 5.263157894736842,
+   "runs": 250,
+   "extra_solves_if_clean": 1.0,
+   "upper_bound_pts": 0.4
+  },
+  "C03b": {
+   "configs": [
+    "C03b"
+   ],
+   "n_tasks": 19,
+   "poisoned_rate": 0.3684210526315789,
+   "clean_rate": 0.631578947368421,
+   "gap_pts": 26.31578947368421,
+   "runs": 250,
+   "extra_solves_if_clean": 5.0,
+   "upper_bound_pts": 2.0
+  },
+  "C04": {
+   "configs": [
+    "C04"
+   ],
+   "n_tasks": 28,
+   "poisoned_rate": 0.2857142857142857,
+   "clean_rate": 0.35714285714285715,
+   "gap_pts": 7.142857142857145,
+   "runs": 250,
+   "extra_solves_if_clean": 2.0,
+   "upper_bound_pts": 0.8
+  },
+  "C01b_r4": {
+   "configs": [
+    "C01b_r4"
+   ],
+   "n_tasks": 18,
+   "poisoned_rate": 0.05555555555555555,
+   "clean_rate": 0.05555555555555555,
+   "gap_pts": 0.0,
+   "runs": 250,
+   "extra_solves_if_clean": 0.0,
+   "upper_bound_pts": 0.0
+  },
+  "T2048": {
+   "configs": [
+    "T2048"
+   ],
+   "n_tasks": 19,
+   "poisoned_rate": 0.42105263157894735,
+   "clean_rate": 0.3157894736842105,
+   "gap_pts": -10.526315789473683,
+   "runs": 250,
+   "extra_solves_if_clean": -2.0,
+   "upper_bound_pts": -0.8
+  },
+  "T3072": {
+   "configs": [
+    "T3072"
+   ],
+   "n_tasks": 12,
+   "poisoned_rate": 0.25,
+   "clean_rate": 0.4166666666666667,
+   "gap_pts": 16.666666666666668,
+   "runs": 250,
+   "extra_solves_if_clean": 2.0,
+   "upper_bound_pts": 0.8
+  },
+  "X": {
+   "configs": [
+    "X"
+   ],
+   "n_tasks": 22,
+   "poisoned_rate": 0.3181818181818182,
+   "clean_rate": 0.36363636363636365,
+   "gap_pts": 4.545454545454547,
+   "runs": 250,
+   "extra_solves_if_clean": 1.0,
+   "upper_bound_pts": 0.4
+  },
+  "C01b_r7": {
+   "configs": [
+    "C01b_r7"
+   ],
+   "n_tasks": 17,
+   "poisoned_rate": 0.23529411764705882,
+   "clean_rate": 0.17647058823529413,
+   "gap_pts": -5.882352941176469,
+   "runs": 250,
+   "extra_solves_if_clean": -1.0,
+   "upper_bound_pts": -0.4
+  },
+  "B30": {
+   "configs": [
+    "B30"
+   ],
+   "n_tasks": 21,
+   "poisoned_rate": 0.14285714285714285,
+   "clean_rate": 0.3333333333333333,
+   "gap_pts": 19.047619047619047,
+   "runs": 250,
+   "extra_solves_if_clean": 4.0,
+   "upper_bound_pts": 1.6
+  },
+  "all_full": {
+   "configs": [
+    "base",
+    "C01b_r2",
+    "C03b",
+    "C04",
+    "C01b_r4",
+    "T2048",
+    "T3072",
+    "X",
+    "C01b_r7",
+    "B30"
+   ],
+   "n_tasks": 88,
+   "poisoned_rate": 0.2924512987012987,
+   "clean_rate": 0.3609827425326651,
+   "gap_pts": 6.853144383136639,
+   "runs": 2500,
+   "extra_solves_if_clean": 17.329626857490634,
+   "upper_bound_pts": 0.6931850742996254
+  }
+ },
+ "caps": {
+  "base": {
+   "runs": 250,
+   "time_cap": 53,
+   "call_cap": 55,
+   "any_cap": 102,
+   "any_cap_pct": 40.8,
+   "cap_solve_pct": 14.705882352941176,
+   "free_solve_pct": 55.4054054054054,
+   "mean_agent_seconds": 312.37376
+  },
+  "C01b_r2": {
+   "runs": 250,
+   "time_cap": 38,
+   "call_cap": 63,
+   "any_cap": 98,
+   "any_cap_pct": 39.2,
+   "cap_solve_pct": 13.26530612244898,
+   "free_solve_pct": 59.21052631578947,
+   "mean_agent_seconds": 299.74112
+  },
+  "C03b": {
+   "runs": 250,
+   "time_cap": 42,
+   "call_cap": 78,
+   "any_cap": 115,
+   "any_cap_pct": 46.0,
+   "cap_solve_pct": 18.26086956521739,
+   "free_solve_pct": 61.48148148148148,
+   "mean_agent_seconds": 306.24368
+  },
+  "C04": {
+   "runs": 250,
+   "time_cap": 45,
+   "call_cap": 55,
+   "any_cap": 93,
+   "any_cap_pct": 37.2,
+   "cap_solve_pct": 12.903225806451612,
+   "free_solve_pct": 57.32484076433121,
+   "mean_agent_seconds": 310.79716
+  },
+  "C01b_r4": {
+   "runs": 250,
+   "time_cap": 33,
+   "call_cap": 80,
+   "any_cap": 110,
+   "any_cap_pct": 44.0,
+   "cap_solve_pct": 13.636363636363637,
+   "free_solve_pct": 58.57142857142857,
+   "mean_agent_seconds": 298.07788
+  },
+  "T2048": {
+   "runs": 250,
+   "time_cap": 32,
+   "call_cap": 80,
+   "any_cap": 108,
+   "any_cap_pct": 43.2,
+   "cap_solve_pct": 11.11111111111111,
+   "free_solve_pct": 59.859154929577464,
+   "mean_agent_seconds": 292.64436
+  },
+  "T3072": {
+   "runs": 250,
+   "time_cap": 34,
+   "call_cap": 62,
+   "any_cap": 96,
+   "any_cap_pct": 38.4,
+   "cap_solve_pct": 10.416666666666666,
+   "free_solve_pct": 57.79220779220779,
+   "mean_agent_seconds": 294.46156
+  },
+  "X": {
+   "runs": 250,
+   "time_cap": 42,
+   "call_cap": 65,
+   "any_cap": 102,
+   "any_cap_pct": 40.8,
+   "cap_solve_pct": 20.58823529411765,
+   "free_solve_pct": 56.08108108108108,
+   "mean_agent_seconds": 306.89496
+  },
+  "C01b_r7": {
+   "runs": 250,
+   "time_cap": 44,
+   "call_cap": 57,
+   "any_cap": 95,
+   "any_cap_pct": 38.0,
+   "cap_solve_pct": 6.315789473684211,
+   "free_solve_pct": 58.70967741935484,
+   "mean_agent_seconds": 300.65636
+  },
+  "B30": {
+   "runs": 250,
+   "time_cap": 50,
+   "call_cap": 54,
+   "any_cap": 101,
+   "any_cap_pct": 40.4,
+   "cap_solve_pct": 17.821782178217823,
+   "free_solve_pct": 57.04697986577181,
+   "mean_agent_seconds": 313.02216
+  }
+ },
+ "a0_writeback": {
+  "pre_n": 53,
+  "pre_f": 18,
+  "first_failures": 18,
+  "failed_edit_calls": 249,
+  "written_back": 249,
+  "written_back_identical_args": 249,
+  "history_has_swallow_marker": 199,
+  "followed_by_edit": 244,
+  "next_edit_identical": 168,
+  "next_edit_missing": 216,
+  "post_n": 283,
+  "post_f": 231,
+  "missing_calls_all_tools": 265,
+  "markers": {
+   "backtick": 175,
+   "literal_delimiter": 4,
+   "quote": 34,
+   "other": 52
+  },
+  "tasks": 30
+ },
+ "figures": "ok"
+}
